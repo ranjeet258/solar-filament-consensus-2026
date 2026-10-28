@@ -38,8 +38,11 @@ Three submissions were scored on October 28, 2026:
 
 The independent model improved from the prior 0.38 best. The reference variants
 matched the historical 0.55 best. Their provenance is separate from the model-only
-result; no private leaderboard result is available. Version 2 replaces private
-training-output inputs with the public checksum-verified cache.
+result; no private leaderboard result is available. Version 3 completed using
+the public checksum-verified cache and no private training-output inputs. Its
+CSV is byte-for-byte identical to the scored version 1 output, as recorded in
+`results/public_run_verification.json`. Version 2's premature-download failure
+was corrected by version 3.
 
 ## Method
 

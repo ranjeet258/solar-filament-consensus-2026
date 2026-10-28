@@ -1,0 +1,19 @@
+{
+  "notebook": "ranjeet258/solar-filaments-cross-model-consensus-v2",
+  "version": 3,
+  "status": "COMPLETE",
+  "private_kernel_inputs": [],
+  "public_cache_sha256": "d0d127de9ac94606b0a3343cf9a89a1b41c5086cc800524ba925dfa66a803d41",
+  "csv_sha256": "5ab8d0e7068eedfb80751777fdc00b61e429fc865c74d500db45e4378f57018b",
+  "matches_scored_version_1": true,
+  "scored_submission_ref": "57745515",
+  "public_score": 0.39,
+  "local_PQ": 0.4525457111358586,
+  "audits": {
+    "submission_model.csv": {
+      "rows": 1237,
+      "overlap_pixels": 0,
+      "sha256": "5ab8d0e7068eedfb80751777fdc00b61e429fc865c74d500db45e4378f57018b"
+    }
+  }
+}

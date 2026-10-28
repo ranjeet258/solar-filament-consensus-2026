@@ -7,7 +7,7 @@ This status describes the model-consensus release, not the older reference CSV.
 - [x] Pinned post-processing dependencies are supplied.
 - [x] Fresh-training dependency versions are supplied; historic training version uncertainty is documented.
 - [x] No embedded prediction CSV is required by the model-only notebook.
-- [x] Saved Kaggle notebook version 1 finished without error; version 2 public-cache rerun is being checked separately.
+- [x] Saved Kaggle notebook versions 1 and 3 finished without error. Version 3 uses only the competition input and public cache; its CSV is byte-for-byte identical to the scored version 1 output. Version 2's premature-download failure was corrected by version 3.
 - [x] Model-only public PQ 0.39, Kaggle reference 57745515.
 - [x] Reference-consensus and reference-boundary public PQ 0.55, references 57745523 and 57745583; provenance documented separately.
 - [x] Public source repository: https://github.com/ranjeet258/solar-filament-consensus-2026
