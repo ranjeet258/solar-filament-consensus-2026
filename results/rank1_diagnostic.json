@@ -1,0 +1,115 @@
+{
+  "holdout_images": 177,
+  "images_with_candidates": 176,
+  "ground_truth_instances": 2154,
+  "semantic_perfect_selector_PQ": 0.5258819900591586,
+  "semantic_perfect_selector_masks": 979,
+  "interpretation": "Fixed semantic masks cannot exceed the oracle selector score under the current pooled PQ accounting. This is a holdout diagnostic, not a ceiling for new models or the hidden test set.",
+  "source_reachability": {
+    "semantic": {
+      "candidates": 2090,
+      "reachable_gt_instances": 1561,
+      "reachable_gt_fraction": 0.7246982358402971,
+      "best_iou_quantiles": {
+        "0.1": 0.2789517557570074,
+        "0.25": 0.47442105461337947,
+        "0.5": 0.6315127243103895,
+        "0.75": 0.7244528190209931,
+        "0.9": 0.7777777777777778
+      },
+      "misses_by_area": {
+        "under_500": {
+          "n_gt": 300,
+          "n_unreachable": 93
+        },
+        "500_to_2000": {
+          "n_gt": 1140,
+          "n_unreachable": 271
+        },
+        "2000_plus": {
+          "n_gt": 714,
+          "n_unreachable": 229
+        }
+      }
+    },
+    "raw_yolo": {
+      "candidates": 3617,
+      "reachable_gt_instances": 1639,
+      "reachable_gt_fraction": 0.7609099350046425,
+      "best_iou_quantiles": {
+        "0.1": 0.39334571016185366,
+        "0.25": 0.5064360246322273,
+        "0.5": 0.5927472357534989,
+        "0.75": 0.6728689143770504,
+        "0.9": 0.7361138952626072
+      },
+      "misses_by_area": {
+        "under_500": {
+          "n_gt": 300,
+          "n_unreachable": 163
+        },
+        "500_to_2000": {
+          "n_gt": 1140,
+          "n_unreachable": 263
+        },
+        "2000_plus": {
+          "n_gt": 714,
+          "n_unreachable": 89
+        }
+      }
+    },
+    "refined_yolo": {
+      "candidates": 2614,
+      "reachable_gt_instances": 1539,
+      "reachable_gt_fraction": 0.7144846796657381,
+      "best_iou_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.448242697405992,
+        "0.5": 0.6308154053244165,
+        "0.75": 0.7187982734144321,
+        "0.9": 0.7727522477522477
+      },
+      "misses_by_area": {
+        "under_500": {
+          "n_gt": 300,
+          "n_unreachable": 217
+        },
+        "500_to_2000": {
+          "n_gt": 1140,
+          "n_unreachable": 297
+        },
+        "2000_plus": {
+          "n_gt": 714,
+          "n_unreachable": 101
+        }
+      }
+    },
+    "all": {
+      "candidates": 8321,
+      "reachable_gt_instances": 1892,
+      "reachable_gt_fraction": 0.8783658310120706,
+      "best_iou_quantiles": {
+        "0.1": 0.4754421486668828,
+        "0.25": 0.5835540782527209,
+        "0.5": 0.6710364787075025,
+        "0.75": 0.7419020789025355,
+        "0.9": 0.7915020541494003
+      },
+      "misses_by_area": {
+        "under_500": {
+          "n_gt": 300,
+          "n_unreachable": 64
+        },
+        "500_to_2000": {
+          "n_gt": 1140,
+          "n_unreachable": 133
+        },
+        "2000_plus": {
+          "n_gt": 714,
+          "n_unreachable": 65
+        }
+      }
+    }
+  },
+  "next_experiment": "Train a genuinely new instance-mask model with a high-resolution refiner and multi-annotator supervision; validate by observation day and compare against the same frozen holdout before full-fold training."
+}
