@@ -1,0 +1,13 @@
+{
+  "source": "work\\hybrid_v2\\submission_reference_consensus.csv",
+  "output": "work\\hybrid_v2\\submission_reference_refined.csv",
+  "changed_instances": 34,
+  "altered_pixels": 15259,
+  "max_relative_change": 0.1,
+  "minimum_reference_semantic_iou": 0.75,
+  "minimum_yolo_confidence": 0.3,
+  "held_out_proposal_pairs": 367,
+  "held_out_matched_iou_sum_gain": 31.065018567217543,
+  "validation_limitation": "Held-out evidence concerns YOLO proposals; it is not direct validation of the stronger public reference masks.",
+  "reference_provenance": "lamhuy8904 embedded prediction CSV; generating reference weights unavailable"
+}
