@@ -1,0 +1,28 @@
+{
+  "file": "model-output-cache-v1.zip",
+  "bytes": 195721260,
+  "sha256": "d0d127de9ac94606b0a3343cf9a89a1b41c5086cc800524ba925dfa66a803d41",
+  "provenance": "Outputs of our four competition-trained kernels; no reference CSV, original images or ground-truth annotations.",
+  "files": {
+    "sf-seg-train-v1/meta.json": "3bced019986522390f732be2a570c75938c700de94c3e117dd23e09bf9d32a76",
+    "sf-seg-train-v1/oof_fold0.zip": "a35b73ddcf0f2cc68fa6a0a29928e5d8b8bfa24ce19969ad6c1e861be902771f",
+    "sf-seg-train-v1/test_fold0.zip": "2719d947e14a3b1172decc3c158c886c823a427ac81259249b706f08173da759",
+    "sf-seg-train-v1/test_fold1.zip": "c958c5d79d8ccd2baa854745eea5a4bc0954ee0e6f2bb81511f91a058374f73a",
+    "sf-seg-train-v1/test_fold2.zip": "4688f3e2b0a75e43ce0aa62cdcb2a3535e7c43fd01a4d0c03627dfbae8b9cdd1",
+    "sf-seg-train-v1/test_fold3.zip": "d4d213dfa59cb6259c775205814c7025c2683c2f4b6f572c62f5af93b0854e1b",
+    "sf-seg-train-v2/meta.json": "cdf6ec91a18e730e8b5d8d9ac1b6ac5d9654b6502768f78288067d692ca2ad63",
+    "sf-seg-train-v2/oof_fold0.zip": "90254dbb67dc6d196b58582775d12ea84a626b7a393fbe3617081f23675bc9f5",
+    "sf-seg-train-v2/test_fold0.zip": "bf53162d284ab177bb13a2d54d71e752b3f1bfb51166a4db324a9cef8db03dae",
+    "sf-seg-train-v2/test_fold1.zip": "5730d0d76ae74509a8f4e142564c1f5a7c4f230dcf3c7634bf0ff7e8a3a50de6",
+    "sf-seg-train-v2/test_fold2.zip": "0598b58929105467d51b1646501270f8036596e9ebd31a6c1960bd8b7d3c49a9",
+    "sf-seg-train-v2/test_fold3.zip": "392b0dd93809b9d6b5a9ddfda1f582fd0e5d4025206bd69af69986097c12f7db",
+    "sf-seg-train-v3/meta.json": "62c17f3a9c376a7066a4527fc92b1a76fd9d182a0f6657fd996de894e05e59a4",
+    "sf-seg-train-v3/oof_fold0.zip": "017ac0c4a02b75fbebcbbab92385608b855e509ae3159e3f7e7f55d793f1f404",
+    "sf-seg-train-v3/test_fold0.zip": "60fa33a77c9ad15d0c5fe12b0f14843aa1029e0212272cf69f5c3fd86a0f9fb8",
+    "sf-seg-train-v3/test_fold1.zip": "a79999184b3286df3496b5b1d505f01c4084813fcba8326c412e916fb9f6d4b1",
+    "sf-seg-train-v3/test_fold2.zip": "d4f169001b9e08de6f068612e65e0933a1572244b7d77e4e1a1ef9701dbf2418",
+    "sf-seg-train-v3/test_fold3.zip": "5cda649c97981d8105fb0e38e8896d8efd8c495f5ddf216370e6d00a4df77df6",
+    "sf-yolo-v1/pred_hold.pkl": "b119fa8fb7ae66c5f9d995a99100e74cf811aaa0deaf8c0829db91bc29471602",
+    "sf-yolo-v1/pred_test.pkl": "996940a3b6b2c2537a1dacc0d91619ea1ca9a41955c56fcbe3a220a9682390ee"
+  }
+}

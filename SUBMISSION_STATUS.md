@@ -11,7 +11,7 @@ This status describes the model-consensus release, not the older reference CSV.
 - [x] Model-only public PQ 0.39, Kaggle reference 57745515.
 - [x] Reference-consensus and reference-boundary public PQ 0.55, references 57745523 and 57745583; provenance documented separately.
 - [x] Public source repository: https://github.com/ranjeet258/solar-filament-consensus-2026
-- [ ] Make trained-output inputs accessible for committee reruns, or provide equivalent public weights and inference outputs.
+- [x] Public model-output cache published at https://github.com/ranjeet258/solar-filament-consensus-2026/releases/tag/model-cache-v1; anonymous download verified, archive SHA256 checked against GitHub's asset digest.
 - [ ] Complete the four-page report in the organizers' Overleaf template.
 - [ ] Confirm author/team identity, affiliation, and contact email.
 - [ ] Submit the organizers' Google Form by November 15, 2026.
