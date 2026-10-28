@@ -88,9 +88,10 @@ def discover():
         yp = ROOT / "work/yolo_v1"
         data = ROOT / "MAGFiLO_1.0_Kaggle_2026"
     else:
-        roots = [Path(glob.glob(f"/kaggle/input/**/sf-seg-train-{v}", recursive=True)[0]) for v in ("v1", "v2", "v3")]
+        inputs = os.environ.get("SF_MODEL_CACHE", "/kaggle/input")
+        roots = [Path(glob.glob(f"{inputs}/**/sf-seg-train-{v}", recursive=True)[0]) for v in ("v1", "v2", "v3")]
         meta = json.load(open(roots[0] / "meta.json"))
-        yp = Path(glob.glob("/kaggle/input/**/pred_hold.pkl", recursive=True)[0]).parent
+        yp = Path(glob.glob(f"{inputs}/**/pred_hold.pkl", recursive=True)[0]).parent
         js = Path(glob.glob("/kaggle/input/**/MAGFiLO_1.0_Annotations_kaggle2026_train.json", recursive=True)[0])
         data = js.parent.parent
         coco = json.load(open(js))

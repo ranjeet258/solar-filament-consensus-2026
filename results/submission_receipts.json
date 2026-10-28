@@ -4,8 +4,8 @@
     "fileName": "submission_reference_refined.csv",
     "date": "2026-10-28 18:20:57.460000",
     "description": "HYBRID-V2-REF-BOUNDARY: reference consensus plus 2px U-Net boundary refinement on 34 strongly agreed masks; <=10pct pixel change; reference provenance disclosed",
-    "status": "SubmissionStatus.PENDING",
-    "publicScore": "",
+    "status": "SubmissionStatus.COMPLETE",
+    "publicScore": "0.55",
     "privateScore": ""
   },
   {
@@ -13,8 +13,8 @@
     "fileName": "submission_reference_consensus.csv",
     "date": "2026-10-28 18:18:58.540000",
     "description": "HYBRID-V2-REF-CONSENSUS: lamhuy embedded CSV + 44 high-confidence U-Net candidates supported by YOLO; reference provenance disclosed",
-    "status": "SubmissionStatus.PENDING",
-    "publicScore": "",
+    "status": "SubmissionStatus.COMPLETE",
+    "publicScore": "0.55",
     "privateScore": ""
   },
   {
@@ -22,8 +22,8 @@
     "fileName": "submission.csv",
     "date": "2026-10-28 18:18:39.723000",
     "description": "HYBRID-V2-MODEL: Kaggle notebook v1, day-grouped selector validation; semantic masks with YOLO agreement features; no reference CSV",
-    "status": "SubmissionStatus.PENDING",
-    "publicScore": "",
+    "status": "SubmissionStatus.COMPLETE",
+    "publicScore": "0.39",
     "privateScore": ""
   }
 ]
